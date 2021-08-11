@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="/project/assets/css/style.css">
+    <link rel="stylesheet" href="/project/assets/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/project/assets/css/reponsive.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body>
+    <!--------------------HEADER-------------------->
+    <div class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/project/assets/image/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks" >
+              <i class="icon ti-close" onclick="hideMenu()"></i>
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                 </ul>
+            </div>
+            <i class="icon ti-menu" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </div>
+    <!--------------------BLOG PAGE CONTENT---------------------------->
+    <div class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+               <img src="/project/assets/image/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>Apply now for January 2022 or April 2022.Understand strategic alliances, global commodity chains and customer relationship management with this MA in International Business. You'll develop a range of intellectual and practical skills to become a specialist in the global knowledge economy. Our course considers the increasingly multidisciplinary and international nature of modern markets. As a student on this International Business course, you'll learn to distinguish and apply relevant research methodologies, techniques and tools. We encourage you to join extra-curricular societies and work on real business projects. Our Client Based Dissertations will help you develop a clearer sense of how to link theory with practice and enrich your profile in the job market.</p>
+                <br>
+                <p>The PCE/ProfGCE is a perfect choice if you're looking to further your career in post-compulsory education. You can study full-time or part-time, or by online distance learning if you are unable to attend weekly classes.
+
+                    The course will equip you with the skills to uphold the professional standards of teaching, with modules covering policy and curriculum issues, theories of learning and inclusion, and development of subject specialism. Upon successful completion, you'll be awarded the Professional Certificate in Education (for non-graduates) or Professional Graduate Certificate in Education (for graduates).
+                    
+                    The course is offered by one of the university's partner colleges, London South East Colleges, on its Bromley Campus.</p>
+                <br>
+                <p>If you work with young children at nursery age or the early years of primary school, our part-time PGCE will help you gain Early Years Teacher Status (EYTS) and deliver high-quality early education. Our course helps you ensure all children have access to high standards of learning. It is awarded to graduates who have been judged to have met all the Teachers' Standards (Early Years) in practice from birth to five years old.
+
+                    To enter the course, you will need an undergraduate degree in a related subject and permission from your employer to study and attend placements as necessary. Your tuition fee is covered by a grant and your employer will be compensated for your release.</p> 
+                <br>
+                <p>Our Postgraduate/Professional Graduate Certificate in Education (PGCE) prepares you to become a secondary school teacher of science, specialising in chemistry. You will focus on addressing the needs of pupils aged 11-16 and beyond, benefiting from the vast knowledge of the Royal Society of Chemistry and its representatives. Your resources include free online continuing professional development (CPD) courses to support you in your career.
+
+                    During your time with us, you will develop your teaching skills, learning how to address the needs of secondary school pupils at Key Stage 3 and 4. You will also develop your expertise, practical knowledge and theoretical understanding of science. By the end of the course, you will be formally assessed against the Teachers’ Standards to gain Qualified Teacher Status in addition to the PGCE qualification</p>
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows=5 placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn green-btn"> POST COMMENT</button>
+                        </form>
+                    </div>
+                </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Date Science</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>1</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>4</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>17</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------FOOTER---------------------------->
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to the University of Greenwich. Established in 1890, we are located on the banks of the River Thames,<br> the green spaces of Avery Hill, and the historic Chatham Maritime in Kent.</p>
+         <div class="icons">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-twitter-square"></i>
+            <i class="fa fa-youtube-square"></i>
+            <i class="fa fa-github"></i>
+         </div>
+         <p>Made with <i class="fa fa-heart-o"> by Greenwich University</i></p>
+    </div>
+    <!--------Javascript cho đóng mở nút menu --------->
+    <Script>
+        var navLinks=document.getElementById("navLinks");
+        //khi nav-links có giá trị right =0 thì sẽ mở 
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        //khi nav-links có giá trị right =-200px sẽ đóng 
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+        
+    </Script>
+</body>
+</html>

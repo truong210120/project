@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="/project/assets/css/style.css">
+    <link rel="stylesheet" href="/project/assets/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/project/assets/css/reponsive.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body>
+    <!--------------------HEADER-------------------->
+    <div class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/project/assets/image/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks" >
+              <i class="icon ti-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="icon ti-menu" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </div>
+    <!---------------------CONTACT US--------------------->
+    <div class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1445.7341710527612!2d-0.007065917647268969!3d51.48263386549932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487602844a443523%3A0x9f5181128b65430a!2zxJDhuqFpIGjhu41jIEdyZWVud2ljaA!5e0!3m2!1svi!2s!4v1628646916313!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+               <div>
+                  <i class="fa fa-home"></i>
+                  <span>
+                      <h5>Old Royal Naval College, Park Row</h5>
+                      <p>London SE10 9LS</p>
+                  </span>
+               </div>
+               <div>
+                   <i class="fa fa-phone"></i>
+                   <span>
+                       <h5>+44 20 8331 8000</h5>
+                       <p>Monday to Saturday , 10AM to 6PM</p>
+                   </span>
+               </div>
+               <div>
+                   <i class="fa fa-envelope"></i>
+                    <span>
+                       <h5> www.gre.ac.uk/greenwich</h5>
+                       <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter email address" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea rows="10" placeholder="Message"></textarea>
+                    <button type="submit" class="hero-btn green-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--------------------FOOTER---------------------------->
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to the University of Greenwich. Established in 1890, we are located on the banks of the River Thames,<br> the green spaces of Avery Hill, and the historic Chatham Maritime in Kent.</p>
+         <div class="icons">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-twitter-square"></i>
+            <i class="fa fa-youtube-square"></i>
+            <i class="fa fa-github"></i>
+         </div>
+         <p>Made with <i class="fa fa-heart-o"> by Greenwich University</i></p>
+    </div>
+    <!--------Javascript cho đóng mở nút menu --------->
+    <Script>
+        var navLinks=document.getElementById("navLinks");
+        //khi nav-links có giá trị right =0 thì sẽ mở 
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        //khi nav-links có giá trị right =-200px sẽ đóng 
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+        
+    </Script>
+</body>
+</html>
